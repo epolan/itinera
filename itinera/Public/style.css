@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+}
+
+#container {
+    width: 100%x;
+    margin: 0 auto 0 auto;
+    background-color: rgb(194, 144, 144);
+}
+
+#header {
+    background-image: url(itinera_logo.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-shadow: 0 0 0.2em rgb(3, 2, 2), 0 0 0.2em rgb(41, 2, 2),
+        0 0 0.2em rgb(53, 5, 5);
+    height: 230px;
+    line-height: 1rem;
+}
+
+hgroup {
+    padding-top: 7.5rem;
+}
+
+hgroup a h1 {
+    color: #ffffff;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+aside.left {
+    width: 15%;
+    background-color: #a72c0e;
+    float: left;
+    height: inherit;
+    padding: 1rem 0.5rem auto 0.7rem;
+}
+
+#sidenav {
+    text-align: center;
+    padding-right: 2rem;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 1rem 0;
+}
+
+a {
+    color: #ffff;
+   
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 00.5rem;
+    text-decoration: none;
+}
+
+.menu li {
+    text-decoration: none;
+    text-align: center;
+    padding-right: 2.4rem;
+    line-height: 2.5rem;
+}
+
+ul {
+    margin: 0;
+   /* usuniecie marginesów */
+    padding: 0;
+    width: 12.5rem;
+    /* ustaw tutaj szerokość menu jaka chcesz */
+}
+.menu ul li a{
+    text-shadow: 0 0 0.2em rgb(3, 2, 2), 0 0 0.2em rgb(41, 2, 2),
+    0 0 0.2em rgb(53, 5, 5);
+}
+
+.menu li:hover {
+    background-color: rgb(145, 21, 21);
+    padding-right: 2rem;
+    border-radius: 25% 55% 55% 25%;
+    transition: 1s;
+    border: #d94348 dotted;
+}
+
+.active {
+    background-color: #e78387;
+    border-radius: 25%;
+}
+
+#links {
+    margin: 0;
+    padding: 1rem 0 0 0;
+    color: #c7f7f0;
+    font-size: 1rem;
+}
+
+#links h3 {
+    text-align: justify;
+    text-align: center;
+}
+#links a:hover{
+    font-style: italic;
+    background-color: #eca898;
+
+}
+
+article {
+    width: 70%;
+    float: left;
+    background-color: #f3cca0;
+    height: inherit;
+}
+
+aside.right {
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: rgb(191, 214, 155);
+    float: left;
+    height: inherit;
+    text-shadow: none;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: #bfc4bf;
+    font-size: 1.5rem;
+}
+
+.adv {
+    height: 400px;
+}
+
+.sociallink {
+    position: absolute bottom;
+
+}
+
+.yt {
+    margin-left: 0%;
+    width: 20%;
+    height: 70px;
+    background-color: #d94348;
+    float: left;
+    color: #ffffff;
+    border-radius: 25%;
+}
+
+.yt:hover {
+    background-color: #c83237;
+}
+
+.fb {
+    margin-left: 6%;
+    width: 20%;
+    height: 70px;
+    background-color: #4668b3;
+    float: left;
+    color: #ffffff;
+    border-radius: 25%;
+}
+
+.fb:hover {
+    background-color: #3557a2;
+}
+
+.gplus {
+    margin-left: 6%;
+    width: 20%;
+    height: 70px;
+    background-color: #d95333;
+    float: left;
+    color: #ffffff;
+    border-radius: 25%;
+}
+
+.gplus:hover {
+    background-color: #c84222;
+}
+
+.Wa {
+    margin-left: 6%;
+    width: 40px;
+    height: 70px;
+    background-color: #3daf39;
+    float: left;
+    color: #ffffff;
+    border-radius: 25%;
+}
+
+.WA:hover {
+    background-color: #2084c2;
+}
+
+a.sociallink {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: justify;
+    display: block;
+    width: 51px;
+    height: 77px;
+}
+
+#footer {
+    clear: both;
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgb(134, 35, 35);
+    font-style: italic;
+    color: #ffffff;
+
+}
