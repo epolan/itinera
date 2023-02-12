@@ -1,0 +1,28 @@
+.header{
+    background-color: rgb(88, 185, 145);
+    height: 250px;
+    display: iinine-block;
+   }
+   #logo{
+    height: inherit;
+    width: 20%;
+    float: left;
+    background-color: antiquewhite;
+    padding-left: 0;
+    background-image: url(./images/logo.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animation 1.3s infinite linear;
+      }
+
+p{
+    font-size: 2.5rem;
+    font-family: 'Courgette', cursive;
+    padding-top: 7%;
+    letter-spacing: 0.37rem;
+    color: azure;
+    text-shadow: rgb(36, 30, 7) 1px 0 10px;
+}
+@keyframes animation {
+
+	}
