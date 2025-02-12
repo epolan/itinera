@@ -1,0 +1,91 @@
+.footer{
+    width: 100%;
+    padding: 1rem 0;
+    background-image: url("../../assets/mosaic.jpg");
+    background-size: cover;
+    position :absolute;
+    bottom: 0;
+    border-top: 4px solid #f3ebeb;
+}
+
+
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid: gap 40px;
+
+}
+
+.left{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.location{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.location p{
+    line-height: 2.7rem;
+}
+.center{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.right{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.social{
+    margin-top: 1rem;
+}
+
+.location .loc p{ 
+    color: rgb(67, 3, 3, 0.667);
+    font-size: 1rem;
+    font-weight: 500;
+}
+h4{
+    color: rgb(67, 3, 3, 0.667);
+    font-size: 1.4rem;
+    padding-bottom: 0.7rem;
+}
+
+p{
+    color: rgba(67, 0, 0, 0.667);
+}
+.footer-container .left .location p{
+    color:rgb(67, 0, 0, 669);
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+
+@media screen and (max-width:640px) {
+    .footer-container{
+
+        grid-template-columns: 1fr;
+        grid: gap 40px;
+    
+    }
+    
+}
+/*.footer-container .left p{
+    color: rgba(67, 3, 3, 0.667);
+ }
+ .footer-container .right p{
+    color: rgb(67, 3, 3, 0.667);
+ }
+ :*/
